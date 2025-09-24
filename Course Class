@@ -1,0 +1,11 @@
+package edu.ccrm.domain;
+
+public class Course {
+    private String code;
+    private String title;
+    private int credits;
+    private String instructor;
+    private String department;
+    private Semester semester;
+    // Constructor, getters, setters
+}
