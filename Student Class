@@ -1,0 +1,18 @@
+package edu.ccrm.domain;
+
+import java.time.LocalDate;
+import java.util.List;
+
+public class Student extends Person {
+    private String regNo;
+    private boolean active;
+    private List<Course> enrolledCourses;
+    private LocalDate dateJoined;
+
+    // getters, setters, constructors
+
+    @Override
+    public void printProfile() {
+        // Print student profile and transcript
+    }
+}
